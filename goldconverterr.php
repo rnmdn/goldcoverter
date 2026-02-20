@@ -5,7 +5,7 @@ $ounces = "00.00";
 $kilograms = "00.00";
 $total = "00.00";
 $error = "";
-
+###
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $grams = $_POST["grams"];
@@ -255,4 +255,5 @@ input:focus {
     </form>
 </div>
 </body>
+
 </html>
